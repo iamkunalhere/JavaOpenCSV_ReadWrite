@@ -7,7 +7,7 @@ import java.nio.file.Paths;
 import java.util.List;
 
 public class OpenCSVReader {
-    private static final String SAMPLE_CSV_FILE_PATH = "resources/fileWithHeader.csv";
+    private static final String SAMPLE_CSV_FILE_PATH = "./fileWithHeader.csv";
 
     public static void main(String[] args) throws IOException {
         readRecordsOneByOne();
